@@ -3,7 +3,7 @@ Library-CMS
 
 SERVER
 1) Open /server folder 
-2) Run 'npm install' to load dependancies
+2) Run 'npm install' to load dependencies
 3) Run 'npm start' to run the server
 
 
