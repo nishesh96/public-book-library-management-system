@@ -1,0 +1,44 @@
+{
+  "13346369-fd93-41a6-a08f-6689c917a64a": {
+    "name": "Harry Potter",
+    "description": "Sorcerers Stone",
+    "count": 3,
+    "author": "JK Rowling",
+    "id": "13346369-fd93-41a6-a08f-6689c917a64a"
+  },
+  "e7c61813-0afb-4536-891d-ca9fff8ae31c": {
+    "name": "Harry Potter 2",
+    "description": "Sorcerers Stone",
+    "count": 3,
+    "author": "JK Rowling",
+    "id": "e7c61813-0afb-4536-891d-ca9fff8ae31c"
+  },
+  "9c547343-d5ef-4321-8255-008140dfd05e": {
+    "name": "Harry Potter 3",
+    "description": "Sorcerers Stone",
+    "count": 3,
+    "author": "JK Rowling",
+    "id": "9c547343-d5ef-4321-8255-008140dfd05e"
+  },
+  "df6e629b-559d-4f2b-a5bf-d9af0211d9f0": {
+    "name": "Harry Potter 4",
+    "description": "Sorcerers Stone",
+    "count": 3,
+    "author": "JK Rowling",
+    "id": "df6e629b-559d-4f2b-a5bf-d9af0211d9f0"
+  },
+  "d7f4fe88-7059-4451-aea0-e6d88fd22e0e": {
+    "name": "Harry Potter 5",
+    "description": "Sorcerers Stone",
+    "count": 3,
+    "author": "JK Rowling",
+    "id": "d7f4fe88-7059-4451-aea0-e6d88fd22e0e"
+  },
+  "6f06fe80-2835-40ed-80e0-03173d3ee355": {
+    "name": "Harry Potter 6",
+    "description": "Sorcerers Stone",
+    "count": 3,
+    "author": "JK Rowling",
+    "id": "6f06fe80-2835-40ed-80e0-03173d3ee355"
+  }
+}
