@@ -2,10 +2,14 @@ import * as ActionTypes from './actions'
 
 const initialState = {
     isFetching: false,
-    items: []
+    items: [],
+    error: false,
+    message: null
 }
 
 const books = (state = initialState, action) => {
+    console.log('action.type', action.type);
+
     switch (action.type) {
         case ActionTypes.ALL_BOOKS_REQUEST:
         case ActionTypes.BOOK_ADD_REQUEST:
@@ -25,19 +29,16 @@ const books = (state = initialState, action) => {
         case ActionTypes.BOOK_UPDATE_FAILURE:
             return {
                 ...state,
-                isFetching: false
+                isFetching: false,
+                error: true
             }
         case ActionTypes.BOOK_ADD_SUCCESS:
         case ActionTypes.BOOK_UPDATE_SUCCESS: {
-            let items = state.items.slice()
-
-            items = items.filter(item => item.id !== action.payload.id)
-            items.push(action.payload)
-
             return {
                 ...state,
                 isFetching: false,
-                items,
+                error: false,
+                message: action.payload
             }
         }
         default:

@@ -17,6 +17,7 @@ function* addBookSaga(payload) {
     try {
         const result = yield call(Api.addBook, payload.book)
         yield put({ type: ActionTypes.BOOK_ADD_SUCCESS, payload: result })
+        yield put({ type: ActionTypes.ALL_BOOKS_REQUEST })
     } catch (error) {
         yield put({ type: ActionTypes.BOOK_ADD_FAILURE })
     }

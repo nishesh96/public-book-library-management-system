@@ -14,13 +14,16 @@ import { filterBooks } from '../utils/helper';
 
 
 function App() {
+
+    const data = useSelector(state => state.items);
+    const isFetching = useSelector(state => state.isFetching);
+    const dispatch = useDispatch();
+
+
     const [bookList, setBookList] = useState([]);
     const [searchedBookList, setSearchedBookList] = useState([]);
-    const isFetching = useSelector(state => state.isFetching);
-
     const [keyword, setKeyword] = useState();
     const [modalOpen, setModalOpen] = useState(false);
-    const dispatch = useDispatch();
 
     const handleModal = () => {
         setModalOpen(!modalOpen);
@@ -36,7 +39,6 @@ function App() {
                 "count": count.value,
                 "author": author.value
             }));
-            dispatch(actions.getAllBooks());
             setModalOpen(false);
             alert("Book Added")
         } else {
@@ -44,11 +46,9 @@ function App() {
         }
     };
 
-    const data = useSelector(state => state.items);
 
     useEffect(() => {
         if (!isFetching) {
-            console.log('data', data)
             const dataValues = Object.values(data);
             setBookList(dataValues);
         }
