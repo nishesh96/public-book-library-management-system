@@ -1,0 +1,19 @@
+.barStyling {
+  width: 20rem;
+  background: #f2f1f9;
+  border: 1px solid green;
+  border-radius: 50px;
+  padding: 0.5rem;
+}
+
+.searchBox {
+  padding: 2em;
+  background: cornsilk;
+  /* height: "100vh" */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

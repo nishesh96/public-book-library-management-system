@@ -1,23 +1,25 @@
-
 table {
-    font-family: arial, sans - serif;
-    border-collapse: collapse;
-    width: 100%;
-    background: white;
+  font-family: arial, sans - serif;
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+  background-color: #dddddd;
 }
 
+tr:not(:first-child):hover {
+  background-color: chartreuse;
+}
 
-.bookList{
-padding:2em;
-
+.bookList {
+  padding: 2em;
 }
