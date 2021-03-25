@@ -16,7 +16,11 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-tr:not(:first-child):hover {
+/* tr:not(:first-child):hover {
+  background-color: chartreuse;
+} */
+
+tr:hover td {
   background-color: chartreuse;
 }
 
