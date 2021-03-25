@@ -10,7 +10,8 @@ SERVER
 
 CLIENT
 1) Run 'npm install' to load depenencies.
-2) Run 'npm start' to run the client app.
+2) Run 'npm run build' to create build.
+3) Run 'serve -s build' to serve the app. 
 
 
 
