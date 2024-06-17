@@ -1,4 +1,5 @@
-Book Library Application 
+Public Library Web Application
+
 A library content management system (LCMS) is a type of web content management system (web CMS) that can help libraries build websites.
 
 Technologies used - 
