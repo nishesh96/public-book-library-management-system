@@ -1,4 +1,10 @@
-Library-CMS
+Book Library Application 
+A library content management system (LCMS) is a type of web content management system (web CMS) that can help libraries build websites.
+
+Technologies used - 
+1) Frontend : ReactJS + Redux 
+2) Backend : NodeJs + Express
+
 
 HOW TO RUN - 
 SERVER
